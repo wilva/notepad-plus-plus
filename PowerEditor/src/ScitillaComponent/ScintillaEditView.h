@@ -981,6 +981,10 @@ protected:
 		setLexer(SCLEX_VISUALPROLOG, L_VISUALPROLOG, LIST_0 | LIST_1 | LIST_2 | LIST_3);
 	}
 
+	void setDataFlexLexer() {
+		setLexer(SCLEX_DATAFLEX, L_DATAFLEX, LIST_0 | LIST_1 | LIST_2 | LIST_3);
+	}
+
     //--------------------
 
 	void setSearchResultLexer() {

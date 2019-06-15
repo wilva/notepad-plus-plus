@@ -711,7 +711,8 @@ BEGIN
         MENUITEM "CoffeeScript",            IDM_LANG_COFFEESCRIPT
         MENUITEM "CSS",                     IDM_LANG_CSS
         MENUITEM "D",                       IDM_LANG_D
-        MENUITEM "Diff",                    IDM_LANG_DIFF
+		MENUITEM "DataFlex",                IDM_LANG_DATAFLEX
+		MENUITEM "Diff",                    IDM_LANG_DIFF
         MENUITEM "Erlang",                  IDM_LANG_ERLANG
         MENUITEM "ESCRIPT",                 IDM_LANG_ESCRIPT
         MENUITEM "Forth",                   IDM_LANG_FORTH
@@ -811,7 +812,8 @@ BEGIN
     POPUP "D"
     BEGIN
         MENUITEM "D",                     IDM_LANG_D
-        MENUITEM "Diff",                  IDM_LANG_DIFF
+		MENUITEM "DataFlex",              IDM_LANG_DATAFLEX
+		MENUITEM "Diff",                  IDM_LANG_DIFF
     END
     POPUP "E"
     BEGIN

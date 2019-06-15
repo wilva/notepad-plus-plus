@@ -6337,6 +6337,9 @@ int NppParameters::langTypeToCommandID(LangType lt) const
 		case L_VISUALPROLOG:
 			id = IDM_LANG_VISUALPROLOG; break;
 
+		case L_DATAFLEX:
+			id = IDM_LANG_DATAFLEX; break;
+
 		case L_SEARCHRESULT :
 			id = -1;	break;
 

@@ -166,6 +166,7 @@ LanguageName ScintillaEditView::langNames[L_EXTERNAL+1] = {
 {TEXT("spice"),			TEXT("Spice"),				TEXT("spice file"),										L_SPICE,		SCLEX_SPICE},
 {TEXT("txt2tags"),		TEXT("txt2tags"),			TEXT("txt2tags file"),									L_TXT2TAGS,		SCLEX_TXT2TAGS},
 {TEXT("visualprolog"),	TEXT("Visual Prolog"),		TEXT("Visual Prolog file"),								L_VISUALPROLOG,	SCLEX_VISUALPROLOG},
+{TEXT("dataflex"),		TEXT("DataFlex"),			TEXT("DataFlex source file"),							L_DATAFLEX,		SCLEX_DATAFLEX},
 {TEXT("ext"),			TEXT("External"),			TEXT("External"),										L_EXTERNAL,		SCLEX_NULL}
 };
 
@@ -1701,6 +1702,9 @@ void ScintillaEditView::defineDocType(LangType typeDoc)
 
 		case L_VISUALPROLOG:
 			setVisualPrologLexer(); break;
+
+		case L_DATAFLEX:
+			setDataFlexLexer(); break;
 
 		case L_TEXT :
 		default :

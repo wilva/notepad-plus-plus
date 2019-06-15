@@ -34,7 +34,7 @@ const TCHAR* nppName   = TEXT("Notepad++_file");
 const TCHAR* nppBackup = TEXT("Notepad++_backup");
 const TCHAR* nppDoc    = TEXT("Notepad++ Document");
 
-const int nbSupportedLang = 10;
+const int nbSupportedLang = 11;
 const int nbExtMax = 27;
 const int extNameMax = 18;
 
@@ -71,6 +71,11 @@ const TCHAR defExtArray[nbSupportedLang][nbExtMax][extNameMax] =
 	},
 	{TEXT("fortran, TeX, SQL"),
 		TEXT(".f"), TEXT(".for"), TEXT(".f90"), TEXT(".f95"), TEXT(".f2k"), TEXT(".tex"), TEXT(".sql")
+	},
+	{TEXT("dataflex"),
+		TEXT(".src"), TEXT(".vw"), TEXT(".dg"), TEXT(".sl"), TEXT(".pkg"), 
+		TEXT(".bp"), TEXT(".inc"), TEXT(".dd"), TEXT(".h"), TEXT(".rv"), 
+		TEXT(".wo"), TEXT(".prn")
 	},
 	{TEXT("misc"),
 		TEXT(".nfo"), TEXT(".mak")
